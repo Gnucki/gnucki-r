@@ -1,0 +1,28 @@
+{
+    "name": "gnucki-r",
+    "description": "Package allowing to use r.js build from the Gnucki's fork of r.js (handling node commonjs style)",
+    "version": "1.0.2",
+    "homepage": "https://github.com/Gnucki/gnucki-r",
+    "author": "Thomas Prelot <tprelot@gmail.com> (https://github.com/Gnucki)",
+    "licenses": [
+        {
+            "type": "BSD",
+            "url": "https://github.com/jrburke/r.js/blob/master/LICENSE"
+        },
+        {
+            "type": "MIT",
+            "url": "https://github.com/Gnucki/gnucki-r/blob/master/LICENSE"
+        }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Gnucki/gnucki-r"
+    },
+    "main": "./bin/r.js",
+    "bin": {
+        "gnucki-r.js": "./bin/r.js"
+    },
+    "engines": {
+        "node": ">=0.4.0"
+    }
+}
